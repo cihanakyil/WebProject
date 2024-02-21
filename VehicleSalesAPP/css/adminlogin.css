@@ -1,0 +1,50 @@
+.cf1{
+    background-color: lightskyblue;
+}
+
+#anasayfa{
+    height: 40px;
+}
+
+#anasayfa:hover{
+    background-color:  floralwhite
+}
+
+body{
+    background-color: rgb(71, 131, 221);
+}
+
+span{
+    width: 150px;
+}
+
+#username,#password{
+    width: 250px;
+}
+
+#adminImg{
+    width: 220px;
+    height: 190px;
+
+}
+
+.c1{
+ 
+    top: 200px;
+    left: 400px;
+}
+
+#giris-baslik{
+    text-align: center;
+}
+
+.row2,.row3{
+    border: solid;
+}
+
+#giris{
+    background-color: rgb(201, 176, 184);
+}
+#giris:hover{
+    background-color: darkcyan;
+}

@@ -1,0 +1,77 @@
+body{
+   background-color: rgb(71, 131, 221);
+}
+
+.cf1, .c1{
+    background-color: rgb(156, 204, 24);
+}
+
+.row1-2,.row1-3,.row1-4{
+   background-color: rgb(98, 212, 45);
+}
+ 
+
+ .row1-2,button , .row1-3,button{
+    text-align: center;
+ }
+.row1-3,button{
+    text-align: center;
+ }
+ .row1-2:hover,.row1-3:hover{
+    background-color: gray;
+ }
+
+
+ #buton1:hover,#buton2:hover{
+    background-color: rgb(190, 92, 67);
+ }
+
+
+ .row2-1{
+    background-color: aquamarine;
+ }
+ .row2-2{
+    background-color: rgb(2, 14, 10);
+    border: solid;
+ }
+
+
+
+ .c2{
+   background-color: blue;
+}
+
+.c1{
+   background-color: rgb(71, 131, 221);
+}
+
+.row2{
+   border: solid;
+}
+
+.row3{
+   border: solid;
+   
+}
+
+#kayit-baslik{
+   text-align: center;
+}
+
+span{
+   text-align: right ;
+ 
+}
+
+#kayit{
+   background-color: rgb(98, 212, 45);
+   font-weight: bold;
+}
+
+#kayit:hover{
+   background-color: rgb(198, 209, 200);
+}
+
+#reg_icon{
+   height: 250px;
+}

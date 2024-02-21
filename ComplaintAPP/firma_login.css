@@ -1,0 +1,19 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(93, 95, 88);
+}
+
+.row{
+  background: rgb(169, 198, 236);
+  border-radius: 30px;
+}
+
+img{
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: : 30px;
+}

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="musteri_sikayet.css">
+    <script src="musteri_sikayet.js"></script>
+
+  </head>
+  <body>
+          <nav class="navbar n1">
+              <div class="container-fluid">
+                    <div class="navbar-header">
+                          <a class="navbar-brand" href="musteri_sikayet.html" id="a1"><strong>MÜŞTERİ ŞİKAYET PANELİ</strong></a>
+                    </div>
+
+                    <ul class="nav navbar-nav ">
+                        <li class="active"><a href="musteri_panel.html" id="a2"><strong>ANASAYFA</strong></a></li>
+                    </ul>
+
+                    <ul class="nav navbar-nav navbar-right ">
+                        <li class="active"><a  href="anasayfa.html" id="a3"><strong>ÇIKIŞ</strong></a> </li>
+                    </ul>
+              </div>
+          </nav>
+
+
+          <div class="container">
+              <ul class="nav nav-pills">
+                  <li class="active"><a data-toggle="pill" href="#sikayetlerim">ŞİKAYETLERİM</a></li>
+                  <li><a data-toggle="pill" href="#sikayetekle">ŞİKAYET EKLE</a></li>
+              </ul>
+
+              <div class="tab-content">
+                    <div id="sikayetlerim" class="tab-pane fade in active">
+                          <div class="container-fluid">
+                                <div class="row sikayetler">
+                                        <div class="col-sm-4 sikayet1">
+                                              <table border="2" style="width:100%">
+                                                      <tr style="height:30px">
+                                                            <td colspan="2"><strong><input type="text" class="form-control sikayet1" style="text-align:center" name="" value="" placeholder="ŞİKAYET BAŞLIĞI1" disabled></strong></td>
+                                                      </tr>
+                                                      <tr>
+                                                            <td style="width:60% ; text-align:center"><strong><input type="text" class="form-control sikayet1" style="text-align:center" name="" value="" placeholder="FİRMA ADI1" disabled></strong></td>
+                                                            <td style="text-align:right"><strong><input type="date" class="form-control sikayet1" style="text-align:center" name="" value="" placeholder="ŞİKAYET TARİHİ" disabled></strong></td>
+                                                     </tr>
+
+                                                     <tr>
+                                                            <td  colspan="2" style="text-align:center"><strong>ŞİKAYET DETAYI</strong></td>
+                                                    </tr>
+
+                                                     <tr>
+                                                            <td colspan="2"><textarea class="form-control sikayet1" name="name" rows="12" cols="50" disabled></textarea></td>
+                                                    </tr>
+                                                    <tr>
+                                                      <td><strong style="text-align:left">ŞİKAYET DURUMU</strong></td>
+                                                      <th>CEVAPLANMADI</th>
+                                                    </tr>
+                                             </table>
+                                             <div class="btn-group">
+                                                  <button type="button" name="button" id="sikayet1_sil" class="btn btn-danger">SİL</button>
+                                                  <button type="button" name="button" id="sikayet1_guncelle" class="btn btn-primary">GÜNCELLE</button>
+                                                  <button type="button" name="button" id="sikayet1_kaydet" class="btn btn-warning" disabled>KAYDET</button>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="col-sm-4 sikayet2">
+                                              <table border="2" style="width:100%">
+
+                                                    <tr style="height:30px">
+                                                            <td colspan="2"><strong><input type="text" class="form-control sikayet2" style="text-align:center" name="" value="" placeholder="ŞİKAYET BAŞLIĞI2" disabled></strong></td>
+                                                    </tr>
+
+                                                    <tr>
+                                                            <td style="width:60% ; text-align:center"><strong><input type="text" class="form-control sikayet2" style="text-align:center" name="" value="" placeholder="FİRMA ADI" disabled></strong></td>
+                                                            <td style="text-align:right"><strong><input type="date" class="form-control sikayet2" style="text-align:center" name="" value="" placeholder="ŞİKAYET BAŞLIĞI1" disabled></strong></td>
+                                                     </tr>
+
+                                                    <tr>
+                                                          <td  colspan="2" style="text-align:center"><strong>ŞİKAYET DETAYI</strong></td>
+                                                    </tr>
+
+                                                   <tr>
+                                                            <td colspan="2"><textarea class="form-control sikayet2" name="name" rows="12" cols="50" disabled></textarea></td>
+                                                  </tr>
+                                                  <td><strong style="text-align:left">ŞİKAYET DURUMU</strong></td>
+                                                  <th>CEVAPLANMADI</th>
+                                              </table>
+                                              <div class="btn-group">
+                                                    <button type="button" name="button" id="sikayet2_sil" class="btn btn-danger">SİL</button>
+                                                    <button type="button" name="button" id="sikayet2_guncelle" class="btn btn-primary">GÜNCELLE</button>
+                                                    <button type="button" name="button" id="sikayet2_kaydet" class="btn btn-warning" disabled>KAYDET</button>
+                                              </div>
+
+                                        </div>
+
+                                        <div class="col-sm-4 sikayet3">
+                                                <table border="2" style="width:100%">
+                                                          <tr style="height:30px">
+                                                                  <td colspan="2" > <strong><input type="text" class="form-control sikayet3" style="text-align:center" name="" value="" placeholder="ŞİKAYET BAŞLIĞI3" disabled></strong></td>
+                                                          </tr>
+                                                          <tr>
+                                                                  <td style="width:60% ; text-align:center" ><strong><input type="text" class="form-control sikayet3" style="text-align:center" name="" value="" placeholder="FİRMA ADI" disabled></strong></td>
+                                                                  <td style="text-align:right"><strong><input type="date" class="form-control sikayet3" style="text-align:center" name="" value="" placeholder="ŞİKAYET TARİHİ" disabled></strong></td>
+                                                         </tr>
+
+                                                         <tr>
+                                                                  <td  colspan="2" style="text-align:center"><strong>ŞİKAYET DETAYI</strong></td>
+                                                        </tr>
+                                                        <tr>
+                                                                  <td colspan="2"><textarea class="form-control sikayet3" name="name" rows="12" cols="50" disabled>merhaba</textarea></td>
+                                                      </tr>
+                                                      <td><strong style="text-align:left">ŞİKAYET DURUMU</strong></td>
+                                                      <th>CEVAPLANMADI</th>
+                                                </table>
+                                                <div class="btn-group">
+                                                      <button type="button" name="button" id="sikayet3_sil" class="btn btn-danger">SİL</button>
+                                                      <button type="button" name="button" id="sikayet3_guncelle" class="btn btn-primary">GÜNCELLE</button>
+                                                      <button type="button" name="button" id="sikayet3_kaydet" class="btn btn-warning" disabled>KAYDET</button>
+                                                </div>
+
+                                        </div>
+                            </div>
+                      </div>
+              </div>
+
+              <div id="sikayetekle" class="tab-pane fade">
+                      <table border="2" style="width:100%">
+                              <tr style="height:30px">
+                                    <td colspan="2"><strong><input type="text" class="form-control" id="baslik" style="text-align:center" name="" value="" placeholder="ŞİKAYET BAŞLIĞINI GİRİNİZ"></strong></td>
+                              </tr>
+                              <tr>
+                                    <td style="width:60%"><strong> <input type="text" class="form-control" id="firma_adi"  style="text-align:center" name="" value="" placeholder="FİRMA ADINI GİRİNİZ"  > </strong></td>
+                                    <td ><strong> <input type="date" class="form-control" id="sikayet_tarihi" style="text-align:center" name="" value="" placeholder="ŞİKAYET TARİHİNİ GİRİNİZ"  > </strong></td>
+                             </tr>
+
+                             <tr>
+                                    <td  colspan="2" style="text-align:center"><strong>ŞİKAYET DETAYI</strong></td>
+                            </tr>
+                            <tr>
+                                    <td colspan="2"><textarea class="form-control" id="sikayet_icerik" name="name" rows="12" cols="50" placeholder="ŞİKAYET DETAYLARINIZI YAZINIZ."></textarea></td>
+                           </tr>
+                     </table>
+                     <button type="button" name="button" class="btn btn-success btn-lg btn-block" id="sikayet_ekle">EKLE</button>
+              </div>
+        </div>
+</div>
+  </body>
+</html>

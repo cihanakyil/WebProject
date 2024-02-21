@@ -1,0 +1,57 @@
+*{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hesap_makinesi{
+    width: 100%;
+    max-width: 1000000px;
+    background-color: #5c5e66;
+    border: 3px solid rgba(6, 1, 14, 0.74);
+    border-radius: 5px;
+    width: 400px;
+    position: absolute;
+    height: 300px;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.ekran{
+    width: 100%;
+    background-color: rgba(8, 8, 8, 0.918);
+    height: 60px;
+    border-radius: 1px;
+    color: #FFFDD0;
+    text-align: left;
+    font-size: 2.5em;
+}
+button{
+    width: 100%;
+    background-color: #FFFDD0;
+    font-size: 2.45rem;
+    border: 1px solid rgba(10, 9, 9, 0.432);
+}
+.butonlar{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.sil{
+    width: 100%;
+    background-color: rgba(235, 11, 11, 0.774);
+}
+.esit{
+    width: 100%;
+    background-color: rgba(28, 177, 78, 0.678);
+}
+.islemler{
+    width: 100%;
+    background-color: #D2691E;
+}
+
+body{
+    width: 100%;
+    background-color: #1dbac5;
+}
+

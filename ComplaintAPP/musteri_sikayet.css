@@ -1,0 +1,13 @@
+body{
+  background: rgb(0,187,172);
+  background: linear-gradient(90deg, rgba(0,187,172,0.8370535714285714) 0%, rgba(103,95,120,0.019126400560224077) 100%);
+}
+
+.n1{
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(177,3,52,0.6941964285714286) 0%, rgba(0,255,151,1) 63%);
+}
+
+#a1,#a2,#a3{
+  color: rgb(14, 14, 38) ;
+}

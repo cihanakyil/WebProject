@@ -1,0 +1,22 @@
+body{
+  background: rgb(96,127,158);
+  background: linear-gradient(90deg, rgba(96,127,158,1) 1%, rgba(133,123,184,1) 22%, rgba(156,201,174,1) 88%);
+}
+
+.c1{
+  background: rgb(187,47,18);
+  background: linear-gradient(90deg, rgba(187,47,18,0.5709471288515406) 1%, rgba(93,139,79,0.9490983893557423) 88%);
+}
+
+.c2{
+  background: rgb(201,203,13);
+  background: linear-gradient(90deg, rgba(201,203,13,0.5709471288515406) 25%, rgba(42,156,163,0.5989583333333333) 55%);
+}
+.n1{
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(177,3,52,0.6941964285714286) 0%, rgba(0,255,151,1) 63%);
+}
+
+#a1,#a2,#a3{
+  color: rgb(14, 14, 38) ;
+}

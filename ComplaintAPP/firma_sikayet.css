@@ -1,0 +1,30 @@
+body{
+  background: rgb(4,238,8);
+background: linear-gradient(186deg, rgba(4,238,8,0.9126838235294118) 46%, rgba(185,20,186,1) 85%);
+}
+
+.td1{
+  background: rgb(218,252,16);
+  background: linear-gradient(186deg, rgba(218,252,16,0.6353728991596639) 4%, rgba(186,79,20,0.8454569327731092) 100%);
+}
+.td2{
+  background: rgb(218,252,16);
+  background: linear-gradient(38deg, rgba(218,252,16,0.6353728991596639) 0%, rgba(200,186,0,0.9547006302521008) 0%);
+}
+.td3{
+  background: rgb(16,252,124);
+  background: linear-gradient(38deg, rgba(16,252,124,0.6941964285714286) 4%, rgba(15,158,109,0.6997986694677871) 93%);
+}
+.n1{
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(177,3,52,0.6941964285714286) 0%, rgba(0,255,151,1) 63%);
+}
+
+#a1,#a2,#a3,#a4{
+  color: rgb(14, 14, 38) ;
+}
+
+.j1,.c1{
+  background: rgb(100,184,15);
+background: linear-gradient(186deg, rgba(100,184,15,0.7025997899159664) 27%, rgba(15,189,167,0.6829919467787116) 81%);
+}

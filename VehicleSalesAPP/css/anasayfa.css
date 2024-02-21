@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+
+#baslik{ 
+    text-align: center;
+}
+.row ,button{
+    text-align: center;
+    
+}
+.row1,.row2,.row3{
+    background-color: rgb(98, 212, 45);
+}
+
+
+#buton1:hover , #buton2:hover ,#buton3:hover{
+    color:aliceblue;
+    background-color: rgb(15, 14, 14);
+}
+.row1:hover , .row2:hover{
+    background-color: beige;
+}
+
+
+#kategori-baslik{
+    background-color: bisque;
+}
+
+
+iframe{
+    border: none;
+    height: 600px; 
+    width: 1105px;
+}

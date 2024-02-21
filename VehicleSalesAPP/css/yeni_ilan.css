@@ -1,0 +1,30 @@
+span{
+  display: inline-block;
+  width : 130px;
+}
+
+#sayfa-basligi ,#arac_info ,#donanim_info,#aciklama{
+  text-align: center;
+}
+
+
+
+.cf2{
+  border: solid;
+  background-color: rgba(83, 146, 92, 0.808);
+}
+
+#vehicleImage{
+  position: absolute;
+  border: solid;
+  left: 23px;
+}
+
+#ilanOlustur{
+  background-color: rgba(34, 206, 140, 0.836);
+}
+
+#ilanOlustur:hover{
+  background-color: rgba(30, 155, 238, 0.863);
+}
+

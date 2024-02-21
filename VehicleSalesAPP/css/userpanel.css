@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+
+#sayfa-basligi, #cerceve-basligi , #menu-basligi, .subrow1,button {
+    text-align: center;
+}
+
+.cf1{
+    background-color: khaki;
+}
+
+
+
+.row2{
+    border: solid;
+}
+iframe{
+    border: none;
+    height: 600px; 
+    width: 1105px;
+}
+
+#exit{
+    text-align: right;
+}
+
+
+.r{
+    background-color: rgba(192, 93, 36, 0.616);
+    border: solid;
+}
+
+.r1,.r2,.r3,.r4,.r5{
+    border: solid;
+}
+
+.r1,.r2,.r3,.r4,.r5,button{
+    text-align: center;
+}
+
+.r1:hover,.r2:hover,.r3:hover,.r4:hover,.r5:hover{
+    background-color: rgba(7, 153, 197, 0.74);
+}
+.r1-1:hover,.r2-1:hover,.r3-1:hover,.r4-1:hover,.r5-1:hover{
+    background-color: rgba(24, 238, 42, 0.89);
+}

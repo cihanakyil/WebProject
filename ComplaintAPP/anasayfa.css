@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(242, 98, 85);
+}
+.navbar-inverse{
+  background-color: rgb(230, 71, 92);
+}
+
+#a1{
+  color: rgb(14, 14, 38) ;
+}
+
+#a2,#a3{
+  color: white ;
+}
+
+
+.j1{
+  background-color: rgb(151, 201, 222);
+}
+.j2{
+  background-color: rgb(189, 75, 106);
+}
+.j3{
+  background-color: rgb(232, 107, 228);
+}
+.j4{
+  background-color: rgb(50, 104, 240);
+}
+.j5{
+  background-color: rgb(207, 45, 48);
+}

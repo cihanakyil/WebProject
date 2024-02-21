@@ -1,0 +1,40 @@
+img{
+    max-width: 100%;
+    align-content: center;
+}
+
+.row1-1,.row1-2,.row2-1,.row2-2,.row2-3,.row2-4,.row2-5,.row2-6,.row2-7,.row2-8,.row2-9{
+    border: solid 1px;
+}
+
+.h6,h1{
+    text-align: center;
+}
+
+
+
+.row2-8{
+    background-color: brown;
+    
+}
+
+.row2-9{
+    background-color:  darkgray;
+}
+
+.row2-8:hover,.row2-9:hover{
+    background-color: blanchedalmond;
+}
+
+.container-fluid:nth-child(even) {
+    background-color: #a4c969;
+}
+
+.container-fluid:nth-child(odd) { 
+    background-color: #40a4cc;
+}
+
+.container-fluid:hover{
+    background-color: rgb(184, 97, 16);
+}
+

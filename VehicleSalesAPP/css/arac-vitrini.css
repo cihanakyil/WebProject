@@ -1,0 +1,65 @@
+img{
+    max-width: 100%;
+    
+}
+
+.row1-1,.row1-2,.row2-1,.row2-2,.row2-3,.row2-4,.row2-5,.row2-6,.row2-7,.row2-8{
+    border: solid 1px;
+}
+
+.h6,h1{
+    text-align: center;
+}
+
+
+
+
+
+
+.row2-8:hover{
+    background-color: blanchedalmond;
+}
+
+.container-fluid:nth-child(even) {
+    background-color: #a4c969;
+}
+
+.container-fluid:nth-child(odd) { 
+    background-color: #40a4cc;
+}
+
+.container-fluid:hover{
+    background-color: rgb(61, 196, 72);
+}
+
+.btnilan{
+    height: 120px;
+}
+
+#filtreUygula,.row2-8{
+    background-color: rgba(241, 68, 0, 0.918);
+}
+
+.sp1{
+    width: 105px;
+}
+
+.sp2{
+    width: 133px;
+}
+
+.sp3{
+    width: 110px;
+}
+
+.panel1,.panel2,.panel3,.panel4,#filtreUygula{
+    display: none;
+}
+
+#filtrebaslik{
+    text-align: center;
+}
+
+#filtrebaslik:hover{
+    background-color: azure;
+}

@@ -1,0 +1,12 @@
+#sayfa-basligi{
+  text-align: center;
+}
+
+
+#isim-baslik,#soyisim-baslik,#telefon-baslik,#mail-baslik{
+  text-align: right;
+}
+
+.row2-1,.row2-3,.row2-5,.row2-7{
+  background-color: rgba(25, 34, 44, 0.5);
+}

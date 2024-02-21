@@ -1,0 +1,43 @@
+#sayfa-basligi,#aciklama,#donanim_ozellikleri{
+    text-align: center;
+}
+
+.cf2{
+    background-color: rgba(211, 193, 91, 0.993);
+}
+
+span{
+    display: inline-block;
+    width : 130px;
+}
+
+
+.kaydet,.kaydet:disabled{
+    background-color: rgb(89, 60, 216);
+}
+
+.guncelle,.guncelle:disabled{
+    background-color: chartreuse;
+}
+
+.iptal{
+    background-color: darkorange;
+}
+.btn:hover{
+    background-color: rgba(7, 75, 138, 0.603);
+}
+
+.col-sm-12{
+    border: solid;
+}
+
+.bosluk{
+    background-color: coral;
+}
+
+
+img{
+    border: solid;
+    width: 395px;
+    height: 263px;
+  }

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARAÇ VİTRİNİ</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="../css/arac-vitrini.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="../js/arac-vitrini.js" defer></script>
+    
+</head>
+
+<body>
+  
+    
+
+    <div class="container-fluid cfpanel">
+        <h4 id="filtrebaslik">FİLTRE AYARLARI</h4>
+        
+        <div class="row filtrepanel">
+                <div class="col-sm-3 panel1">
+                    <div class="input-group">
+                        <span class="input-group-text sp1"><b>ARAÇ TÜRÜ</b> </span>
+                        <select class="form-select " id="arac-turu" name="" required >
+                           <option selected disabled >SEÇİNİZ</option>
+                        </select>
+                      </div>
+                      <div class="input-group">
+                        <span class="input-group-text sp1"><b>MARKA</b></span>
+                        <select class="form-select " id="marka" name="" required>
+                           <option selected disabled >SEÇİNİZ</option> 
+                        </select>
+                      </div>
+                      <div class="input-group">
+                        <span class="input-group-text sp1"><b>MODEL</b></span>
+                        <select class="form-select " id="model" name="" required>
+                           <option selected disabled >SEÇİNİZ</option>
+                        </select>
+                      </div>
+
+                </div>
+
+                 <div class="col-sm-3 panel2">
+                    <div class="input-group">
+                        <span class="input-group-text sp2"><b>YAKIT TÜRÜ</b></span>
+                        <select class="form-select " id="yakit-turu" name="" required>
+                           <option selected disabled >SEÇİNİZ</option> 
+                        </select>
+                      </div>
+                      <div class="input-group">
+                        <span class="input-group-text sp2"><b>MOTOR HACMİ</b></span>
+                        <select class="form-select " id="motor-hacmi" name="" required>
+                           <option selected disabled >SEÇİNİZ</option> 
+                        </select>
+                      </div>
+                      <div class="input-group">
+                        <span class="input-group-text sp2"><b>MOTOR GÜCÜ</b></span>
+                        <select class="form-select " id="motor-gucu" name="" required>
+                           <option selected disabled >SEÇİNİZ</option> 
+                        </select>
+                      </div>
+                   
+                </div>
+
+                <div class="col-sm-3 panel3">
+                    <div class="input-group">
+                        <span class="input-group-text sp3"><b>VİTES</b></span>
+                        <select class="form-select " id="vites" name="" required >
+                           <option selected disabled >SEÇİNİZ</option> 
+                        </select>
+                      </div>
+
+                    <div class="input-group">
+                        <span class="input-group-text sp3"><b>ÜRETİM YILI</b></span>
+                        <input type="text" class="form-control" id="uretim_yili_min" name="" value="" placeholder="MİN." required>
+                        <span class="input-group-text">-</span>
+                        <input type="text" class="form-control" id="uretim_yili_max" name="" value="" placeholder="MAX." required>
+                      </div>
+                      <div class="input-group">
+                        <span class="input-group-text sp3"><b>KİLOMETRE</b></span>
+                        <input type="text" class="form-control" id="km-min" name="" value="" placeholder="MİN." required>
+                        <span class="input-group-text">-</span>
+                        <input type="text" class="form-control" id="km-max" name="" value="" placeholder="MAX." required>
+                      </div>
+
+                     
+                      
+                </div>
+
+                <div class="col-sm-3 panel4">
+                    <div class="input-group">
+                        <span class="input-group-text "><b>FİYAT</b></span>
+                        <input type="text" class="form-control" id="fiyat-min" name="" value="" placeholder="MİN." required>
+                        <span class="input-group-text">-</span>
+                        <input type="text" class="form-control" id="fiyat-max" name="" value="" placeholder="MAX." required>
+                      </div>
+                      <br><br>
+                      
+                </div>
+        </div>
+        <br>
+        <button type="button" class="btn w-100 " id="filtreUygula"><b>FİLTRE UYGULA</b></button>
+    </div>
+    <br><br>
+
+
+</body>
+
+</html>
